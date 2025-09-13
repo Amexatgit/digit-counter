@@ -1,0 +1,27 @@
+
+#label{
+    height: 0.5em;
+    text-align : center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5em;
+}
+#btnContainer{
+     display : center;
+    text-align : center;
+    
+}
+.btns{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    margin : 4px;
+    padding : 10px;
+    border-radius : 8px;
+    background-color : lightblue;
+    border : 2px solid rgb(53, 100, 255);
+    cursor : pointer;
+    transition: background-color 0.25s;
+}
+.btns:hover{
+    background-color : rgb(53, 100, 255);
+    color : white;
+}
